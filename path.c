@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _execute - executes a command in the path
+ * _execute - executes a command in a path
  * @command: full path to the command
  * @inputs: pointer to struct of variables
  *
@@ -44,7 +44,7 @@ int _execute(char *command, input_t *inputs)
 
 /**
  * find_path - finds the PATH variable
- * @env: array of environment variables
+ * @env: array of the environment variables
  *
  * Return: pointer to the node that contains the PATH, or NULL on failure
  */
