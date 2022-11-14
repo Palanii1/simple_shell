@@ -2,8 +2,8 @@
 
 /**
  * tokenize - tokenizes a buffer with a delimiter
- * @arguments: buffer to tokenize
- * @delimiter; delimiter to tokenize along
+ * @arguments: buffer to tokenize.
+ * @delimiter: delimiter to tokenize along
  *
  * Return: pointer to an array of pointers to the tokens
  */
