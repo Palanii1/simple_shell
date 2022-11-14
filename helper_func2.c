@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _printer - prints a string to standard error
+ * _printer - prints out a string to standard error
  * @str: string to print
  *
  * Return: void
@@ -51,7 +51,7 @@ char *_int_str(unsigned int count)
 }
 
 /**
- *_atoi - converts a string into an integer
+ *_atoi - converts a string into an integer value
  * @str: string to convert
  *
  * Return: the integer value, or -1 if an error occurs
