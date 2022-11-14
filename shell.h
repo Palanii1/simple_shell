@@ -36,7 +36,7 @@ typedef struct input
 /**
  * struct builtins - struct for the builtin functions
  * @name: name of builtin command
- * @f: function for corresponding builtin
+ * @f: func for corresponding builtin
  */
 typedef struct builtins
 {
