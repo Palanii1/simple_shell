@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strcat - concatenates two strings
+ * _strcat - concatenates two strings together
  * @dest: first string
  * @src: second string
  * Return: pointer
@@ -42,7 +42,7 @@ char *_strcat(char *dest, char *src)
 }
 
 /**
- * _strlen - returns the length of a string
+ * _strlen - returns the length of the string
  * @s: string to be measured
  * Return: length of string
  */
